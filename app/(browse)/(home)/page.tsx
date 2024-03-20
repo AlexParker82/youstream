@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col w-full">
       <div className="flex justify-between items-center">
         <div className="p-2 m-2">
-          <h1 className="text-4xl">Dashboard</h1>
+          <h1 className="text-4xl">Homepage</h1>
         </div>
       </div>
     </div>

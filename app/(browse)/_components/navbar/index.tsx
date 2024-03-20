@@ -1,6 +1,6 @@
+import { Actions } from "./actions";
 import { Logo } from "./logo"
 import { Search } from "./search"
-import { UserButton } from "@clerk/nextjs";
 
 
 export const Navbar = () => {
@@ -10,9 +10,7 @@ export const Navbar = () => {
         <Logo />
       </div>
       <Search />
-      <div className="p-2 m-2">
-        <UserButton afterSignOutUrl="/" />
-      </div>
+      <Actions />
     </nav>
   )
 }
