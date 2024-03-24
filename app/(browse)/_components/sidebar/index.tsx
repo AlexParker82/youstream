@@ -1,8 +1,10 @@
+import { Wrapper } from "./wrapper";
+
 const Sidebar = () => {
   return (
-    <div>
+    <Wrapper>
       Sidebar
-    </div>
+    </Wrapper>
   );
 }
 

@@ -2,6 +2,7 @@ import { Navbar } from "./_components/navbar";
 import { Poppins } from "next/font/google";
 
 import { cn } from "@/lib/utils";
+import Sidebar from "./_components/sidebar";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -17,6 +18,7 @@ const BrowseLayout = ({
     <div className={cn(font.className)}>
       <Navbar />
       <div className="flex h-full pt-20">
+        <Sidebar />
         {children}
       </div>
     </div>
